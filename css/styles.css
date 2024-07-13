@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-size: 1rem; }
+  @media screen and (min-width: 472px) {
+    body {
+      font-size: 1.25rem; } }
+
+:root {
+  --h1-font-size: 3rem;
+  --h3-font-size: 1.75rem; }
+  @media screen and (min-width: 472px) {
+    :root {
+      --h1-font-size: 2rem;
+      --h3-font-size: 1.25rem; } }

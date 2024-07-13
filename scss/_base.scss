@@ -1,0 +1,21 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   font-size: 1rem;
+   @include from (xs){
+      font-size: 1.25rem;
+
+   }
+}
+
+:root{
+   --h1-font-size : 3rem;
+   --h3-font-size : 1.75rem;
+   @include from (xs){
+      --h1-font-size : 2rem;
+      --h3-font-size : 1.25rem;
+   }
+}
