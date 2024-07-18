@@ -1,0 +1,148 @@
+{
+
+   "preguntas": [
+         {
+         "titulo": "1.-¿Cuál es la capital de Perú?",
+         "puntos": "2 puntos",
+         "opciones":[
+            {
+               "name":"Gotemburgo",
+               "puntos": 2,
+               "value": "1",
+               "nombre": "x-1"
+
+            },
+            {
+               "name":"Lima",
+               "puntos": 2,
+               "value": "2",
+               "nombre": "x-1"
+
+            },
+            {
+               "name":"Arequipa",
+               "puntos": 2,
+               "value": "3",
+               "nombre": "x-1"
+
+            },
+            {
+               "name":"Pisco",
+               "puntos": 2,
+               "value": "4",
+               "nombre": "x-1"
+
+            }
+
+         ]
+         },
+         {
+            "titulo": "1.-¿Cuál es la capital de Perú?",
+            "puntos": "5 puntos",
+            "opciones":[
+               {
+                  "name":"Gotemburgo",
+                  "puntos": 5,
+                  "value": "1",
+                  "nombre": "x-2"
+
+   
+               },
+               {
+                  "name":"Lima",
+                  "puntos": 5,
+                  "value": "2",
+                   "nombre": "x-2"
+                  
+               },
+               {
+                  "name":"Arequipa",
+                  "puntos": 5,
+                  "value": "3",
+                   "nombre": "x-2"
+               },
+               {
+                  "name":"Pisco",
+                  "puntos": 5,
+                  "value": "4",
+                   "nombre": "x-2"
+               }
+   
+            ]
+            },
+            {
+               "titulo": "1.-¿Cuál es la capital de Perú?",
+               "puntos": "3 puntos",
+               "opciones":[
+                  {
+                     "name":"Gotemburgo",
+                     "puntos": 3,
+                     "value": "1",
+                      "nombre": "x-3"
+      
+                  },
+                  {
+                     "name":"Lima",
+                     "puntos": 3,
+                     "value": "2",
+                     "nombre": "x-3"
+
+                     
+                  },
+                  {
+                     "name":"Arequipa",
+                     "puntos": 3,
+                     "value": "3",
+                     "nombre": "x-3"
+
+                  },
+                  {
+                     "name":"Pisco",
+                     "puntos": 3,
+                     "value": "4",
+                     "nombre": "x-3"
+
+                  }
+      
+               ]
+               },
+               {
+                  "titulo": "1.-¿Cuál es la capital de Perú?",
+                  "puntos": "7 puntos",
+                  "opciones":[
+                     {
+                        "name":"Gotemburgo",
+                        "puntos": 7,
+                        "value": "1",
+                        "nombre": "x-4"
+
+         
+                     },
+                     {
+                        "name":"Lima",
+                        "puntos": 7,
+                        "value": "2",
+                        "nombre": "x-4"
+
+                        
+                     },
+                     {
+                        "name":"Arequipa",
+                        "puntos": 7,
+                        "value": "3",
+                        "nombre": "x-4"
+
+                     },
+                     {
+                        "name":"Pisco",
+                        "puntos": 7,
+                        "value": "4",
+                        "nombre": "x-4"
+
+                     }
+         
+                  ]
+                  }
+      ]
+
+   }

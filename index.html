@@ -11,16 +11,19 @@
 <body>
    <header>
       <h1>Quiz Game Capitals</h1>
+      <button class="btn" id="btn-1" page="1">HTML 1</button>
+      <button class="btn" id="btn-2" page="2">HTML 2</button>
+
    </header>
 
-   <form class="main-questions" id="quiz-form">
+   <form class="main-questions section invisible" id="quiz-form-1">
       <section class="main-quiz">
           <div class="main-quiz__question">
             <h3>1.-¿Cuál es la capital de Perú?</h3>
             <p>2 Puntos</p>
           </div>
           <label>
-              <input type="radio" puntos=2 value="1" name="p-1" required> Gotemburgo
+              <input type="radio" puntos=2 value="1" name="p-1" required><span>Gotemburgo</span>
           </label>
           <label>
               <input type="radio" puntos=2 value="2" name="p-1"> Lima
@@ -85,20 +88,14 @@
       </section>
   
       <input type="submit" id="submit" value="Enviar">
-  </form>
+    </form>
+
+    <form class="main-questions section invisible" id="quiz-form-2">
+        
+      </form>
+
   <div class="main-points">
-      <!-- <div class="main-results" id="results">
-         <div class="main-results__puntaje">
-         <div>Respuestas Correctas</div>
-         <div>Respuestas Incorrectas</div>
-         <div>Puntaje</div>
-         </div>
-         <div class="main-results__puntaje">
-            <div>Respuestas Correctas</div>
-            <div>Respuestas Incorrectas</div>
-            <div>Puntaje</div>
-         </div>
-      </div> -->
+
   </div>
 
    <script src="script.js"></script>
