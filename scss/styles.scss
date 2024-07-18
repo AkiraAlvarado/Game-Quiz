@@ -59,6 +59,23 @@ label{
 
 }
 
+#submit2{
+   display: flex;
+   margin: 0 auto;
+   width: 85%;
+   @include from (s){
+      width: 60%;
+   }
+   background-color: #BEE0FF;
+   border-radius: 8px;
+   height: 3em;
+   color: #39A0FF;
+   border: none;
+   cursor: pointer;
+   font-size: 24px;
+
+}
+
 #submit:active{
    background-color: #c6dcf1;
    
@@ -84,4 +101,12 @@ label{
    border-radius: 8px;
    font-size: 24px;
    margin-bottom: 2em;
+}
+
+.invisible {
+   display: none;
+}
+
+.active {
+   display: block;
 }
