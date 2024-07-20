@@ -37,6 +37,8 @@ function submitQuiz(event) {
   const userAnswers = [];
 
   // Obtener todas las preguntas (inputs de tipo radio)
+  const questions = event.target.querySelectorAll('input[type="radio"]:checked');
+  const uncheckedRadios = event.target.querySelectorAll('input[type="radio"]:not(:checked)');
 
   console.log(uncheckedRadios.length)
   // Guardar las respuestas del usuario en el array
@@ -87,7 +89,7 @@ document.getElementById('quiz-form-1').addEventListener('submit', submitQuiz);
 
 // A cada preguntar darle un puntaje digamos 4, 5 , 6 y asiganrle ese puntaje cuando le de corretto
 
-
+// CAMBIAR DE PAGINA
 const buttons = document.querySelectorAll(".btn")
 const section = document.querySelectorAll(".section")
 buttons.forEach(boton => {
