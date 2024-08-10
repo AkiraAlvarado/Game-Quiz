@@ -55,18 +55,16 @@ function submitQuiz(event) {
   let score = 0;
   const totalQuestions = correctAnswers.length;
 
-  for (let i = 0; i < totalQuestions; i++) {
-
-    if (userAnswers[i] === correctAnswers[i]) {
+  userAnswers.forEach((answer, i) => {
+    if (answer === correctAnswers[i]) {
       score++;
-      questions[i].parentNode.style.background = "#E8FFE1"
+      questions[i].parentNode.style.background = "#E8FFE1";
       let puntosActuales = parseInt(questions[i].getAttribute("puntos"), 10); // Obtener el valor actual del atributo y convertirlo a un número
-      puntaje += puntosActuales
+      puntaje += puntosActuales;
     } else {
-      questions[i].parentNode.style.background = "#FFD1D1"
-
+      questions[i].parentNode.style.background = "#FFD1D1";
     }
-  }
+  });
 
   // Mostrar el resultado
   const resultsDiv = document.querySelector('.main-points')
